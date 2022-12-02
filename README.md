@@ -13,7 +13,7 @@ nodejs (testattu versiolla 16.14.0)
 ## Asennus ja käyttö
 ```
 git clone https://github.com/IT-STUDENT123/frontend-lopputyo
-cd lopputyo
+cd frontend-lopputyo/lopputyo
 npm install
 npm run dev
 ```
