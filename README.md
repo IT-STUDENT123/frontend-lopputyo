@@ -5,7 +5,7 @@
 * Jos kursseja ei ole, ei voi tallentaa muistiinpanoja.
 * Muistiinpanoja lisätään istunnoissa, ja kerrallaan vain yhteen kurssiin.
 * Toisen kurssin valintaa varten täytyy kiertää päävalikon kautta.
-
+* Kursseja voi lisätä
 
 ## Esivaatimukset
 nodejs (testattu versiolla 16.14.0)

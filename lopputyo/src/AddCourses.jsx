@@ -45,7 +45,7 @@ const AddCourses = () => {
     <div>
       <h2>Add course</h2>
       <button id="backBtn" onClick={goBack}>
-        Back to main menu
+        Back
       </button>
       <br />
       <input

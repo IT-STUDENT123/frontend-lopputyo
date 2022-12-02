@@ -79,10 +79,7 @@ const AddNotes = ({ courses }) => {
   }, [CurrentSelection]);
   return (
     <div>
-      <h2>Add Notes</h2>
-      <button id="backBtn" onClick={goBack}>
-        Back to main menu
-      </button>
+      <h2>Add new notes for course</h2>
       <br />
       <label htmlFor="CourseSelector">Course:</label>
       <select
@@ -112,12 +109,16 @@ const AddNotes = ({ courses }) => {
         onKeyDown={saveBtnHandler}
         autoFocus={true}
       />
+        <br />
       <button
         className="AddNotesSaveBtn"
         disabled={courses.length == 0}
         onClick={saveHandler}
       >
         Save
+      </button>
+      <button id="backBtn" onClick={goBack}>
+        Back
       </button>
       <div className="sessionDiv">
         {sessionNotes.get().map((item, index) => {
